@@ -29,14 +29,6 @@ for i in range(1,m+1):
             for k in range(i-1, i+2):
                 for l in range(j-1, j+2):
                     if a[k][l] : mines +=1
-            # if a[i-1][j]: mines += 1
-            # if a[i-1][j+1]: mines += 1
-            # if a[i-1][j-1]: mines += 1
-            # if a[i][j-1]: mines += 1
-            # if a[i][j+1]: mines += 1
-            # if a[i+1][j]: mines += 1
-            # if a[i+1][j-1]: mines += 1
-            # if a[i+1][j+1]: mines += 1
             b[i-1][j-1] = str(mines) + " "
 
 stdio.writeln()
