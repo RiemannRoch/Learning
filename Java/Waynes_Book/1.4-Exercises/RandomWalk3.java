@@ -1,5 +1,5 @@
 /**
- * RandomWalk3
+ * Exercise 1.4.35: Three-dimensional self-avoiding walks
  */
 public class RandomWalk3 {
 

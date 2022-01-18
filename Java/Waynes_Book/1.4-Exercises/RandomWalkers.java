@@ -1,3 +1,6 @@
+/*
+* Exercise 1.4.36: Random walkers
+*/
 public class RandomWalkers {
     public static void main(String[] args) {
         // getting command-line argument
