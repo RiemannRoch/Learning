@@ -1,3 +1,5 @@
+package aula5;
+
 public class Conta {
     public int numConta;
     protected String tipo; // CC para conta corrente, CP para conta poupança
@@ -7,7 +9,7 @@ public class Conta {
 
     public void estadoAtual() {
         System.out.println("-------------------------------");
-        System.out.println("Conta: " +  this.getNumConta());
+        System.out.println("Aula5.Conta: " +  this.getNumConta());
         System.out.println("Tipo: " + this.getTipo());
         System.out.println("Dono: " + this.getDono());
         System.out.println("Saldo: " + this.getSaldo());
@@ -27,7 +29,7 @@ public class Conta {
         } else if (t.equals("CP")){
            this.setSaldo(150.0f);
         }
-        System.out.println("Conta aberta com sucesso!");
+        System.out.println("Aula5.Conta aberta com sucesso!");
     }
 
     public void fecharConta(){

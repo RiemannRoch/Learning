@@ -1,4 +1,6 @@
-public class Main {
+package aula5;
+
+public class MainConta {
     public static void main(String[] args) {
         Conta p1 = new Conta();
         p1.setNumConta(1111);

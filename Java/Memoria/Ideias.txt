@@ -1,0 +1,3 @@
+Criar arquivo de configuração com Nível escolhido da ultima vez
+Recordes de tempo
+Barra de Menu com reiniciar, sair, salvar, novo jogo
