@@ -1,0 +1,5 @@
+package model;
+
+public enum Slot {
+    HEAD, NECK, SHOULDER, BACK, CHEST, WRIST, HAND, WAIST, LEGS, FEET, RING, TRINKET, WEAPON, OFF_HAND, TOTEM;
+}
